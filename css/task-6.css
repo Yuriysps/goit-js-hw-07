@@ -1,12 +1,22 @@
+.m-n{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box{
+    margin: 0 auto;
+}
+
 #controls{
+    
 display: flex;
 justify-content: center;
 align-items: center;
 gap: 16px;
 flex-direction: row;
 background: #f6f6fe;
-padding-top: 32px;
-padding-bottom: 32px;
+padding: 32px;
+
 }
     
     

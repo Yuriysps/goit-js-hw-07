@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  img{
+    display: block;
+  }
+  
+  body {
+    margin: 16px;
+
+    background-color:  rgb(224, 187, 218);
+    color: #212121;
+    line-height: 1.5;
+      
+  }
+  
+  ul,
+  li {
+    list-style-type: none;
+  }
+  
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  ul,
+  p {
+    margin: 0;
+    padding: 0;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  h1{
+    margin: 0 auto;
+  }
+
+  h2{
+    margin-bottom: 24px;
+  }
+
+  header{
+    display: flex;
+     flex-direction: column;
+
+
+    padding: 16px;
+    min-height: 120px;
+    /* background-color: black; */
+
+  }
+  main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex-grow: 1;
+  }
+  footer{
+    padding: 16px;
+    min-height: 120px;
+    /* background-color: black; */
+  }
+/* --------------------------------------------------------- */
+
+/* .align-centr{
+
+} */
+
+.flexx{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+  .ok-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* min-height: 100vh;  */
+    /* min-width: 100vh; */
+    padding: 1rem; 
+    text-align: center;
+    
+  }
+
+  
+
+
+
+
+
+  .mar-bot-nlch>*:not(:last-child){
+    margin-bottom: 32px;
+
+  }
+
+  .link-button{
+    width: 140px;
+    color: inherit;
+    height: 30px;
+    display: block;
+    text-align: center;
+    
+    border-radius: 10px;
+    
+    background-color: rgb(68, 228, 228);
+    
+    box-shadow : 0  0 5px rgb(68, 228, 228), 0 0 25px rgb(68, 228, 228),0 0 50px rgb(68, 228, 228),0 0 100px rgb(68, 228, 228), 0 0 200px rgb(68, 228, 228);
+  }
+
